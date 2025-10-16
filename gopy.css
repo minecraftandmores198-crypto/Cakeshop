@@ -1,0 +1,95 @@
+.container {
+  width: 1000px;
+  height: 1140px;
+  font-size: 13px;
+  font-family: tahoma;
+  margin: 0px auto;
+}
+
+.menutop {
+  background-color: #FFFDD0;
+  height: 40px;
+  width: auto;
+}
+.menutop li {
+  list-style-type: none;
+  display: flex;
+  float: left;
+}
+
+.menutop ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menutop li a {
+  text-decoration: none;
+  color:black;
+  font-size: 15px;
+  font-weight: bold;
+  border-right: 1px solid black;
+  padding: 10px 15px 11px 15px;
+  float: left;
+}
+
+.menutop li a:hover {
+  color: yellow;
+  background-color: blue;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.menutop li a:active {
+  color: red;
+}
+
+.banner {
+  height: 280px;
+  width: 1000px;
+}
+
+#id {
+  border-right: 0px;
+}
+
+.detail {
+  text-align: center;
+  line-height: 40px;
+  background-image:url(hinhhtml/CakeBackground.jpg);
+  background-repeat:no-repeat;
+  width:auto;
+  height:auto;
+  background-position-y:0%;
+  background-position-x:0%;
+}
+.detail h2 {
+  color: #b20054;
+}
+.gopy {
+  width: 100px;
+  height: 20px;
+  background-color: #b20054;
+  padding: 5px;
+  margin: 10px 0px 20px 450px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.gopy a {
+  text-decoration: none;
+  color: white;
+}
+.gopy a:hover {
+  color: black;
+}
+form {
+  font-size: 14px;
+}
+.footer {
+  width: 940px;
+  float: left;
+  background-color: #FFFDD0;
+  color: black;
+  padding: 10px 30px;
+}
